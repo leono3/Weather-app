@@ -1,0 +1,56 @@
+h1 {
+  padding: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: white;
+  background: linear-gradient(0.25turn, rgb(59, 101, 193), rgb(19, 1, 83));
+}
+
+#divider {
+  border-bottom: 4px solid rgb(156, 154, 154);
+}
+
+#weather-div {
+  display: none;
+}
+
+#today-weather {
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+span {
+  padding: 5px 8px;
+  border-radius: 4px;
+}
+
+span[data-uvi="low"] {
+  color: white;
+  background-color: rgb(12, 126, 12);
+}
+span[data-uvi="moderate"] {
+  color: white;
+  background-color: rgb(194, 166, 5);
+}
+span[data-uvi="high"] {
+  color: white;
+  background-color: rgb(224, 92, 3);
+}
+span[data-uvi="very-high"] {
+  color: white;
+  background-color: rgb(228, 0, 0);
+}
+span[data-uvi="extreme"] {
+  color: white;
+  background-color: rgb(129, 0, 129);
+}
+
+.fore-card {
+  padding: 25px;
+  min-width: 200px;
+  width: 200px;
+  margin: 10px;
+  color: white;
+  background-color: rgb(39, 54, 104);
+  border-radius: 15px;
+}
